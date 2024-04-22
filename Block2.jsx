@@ -33,8 +33,8 @@ function Block2() {
                         <YAxis />
                         <Tooltip />
                         <Legend />
-                        <Area type="monotone" dataKey="activeAccounts" fill="#15DEC2" stroke="#15DEC2" name="Active Accounts" />
-                        <Area type="monotone" dataKey="inactiveAccounts" fill="#B56F08" stroke="#B56F08" name="Inactive Accounts" />
+                        <Area type="monotone" dataKey="activeAccounts" fill="#248275" stroke="#248275" name="Active Accounts" />
+                        <Area type="monotone" dataKey="inactiveAccounts" fill="#BF7328" stroke="#BF7328" name="Inactive Accounts" />
                         {/* <Label value="Total Active Accounts" position="insideTop" fill="#FFF" /> */}
                     </AreaChart>
                 </ResponsiveContainer>
@@ -55,7 +55,7 @@ function Block2() {
                         <YAxis />
                         <Tooltip />
                         <Legend />
-                        <Area type="monotone" dataKey="stakedIssuance" fill="#15DEC2" stroke="#15DEC2" name="Staked Issuance" />
+                        <Area type="monotone" dataKey="stakedIssuance" fill="#535353" stroke="#535353" name="Staked Issuance" />
                     </AreaChart>
                 </ResponsiveContainer>
             </div>
